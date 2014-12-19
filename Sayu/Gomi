@@ -1,0 +1,56 @@
+
+
+
+//Moveyajiの中にあったゲーム終了処理
+//    if (!IsGaming) {
+//        NSLog(@"Timer Status : %d",[timer isValid]);
+//        [self TimerStop];
+//        NSLog(@"Timer Status : %d",[timer isValid]);
+//        cnt++;
+//        NSLog(@"Timer Status : %d",[timer isValid]);
+//        return;
+//    }
+
+
+
+//- (void)TimerStart{
+//    //タイマーが動いていないときにタイマー開始
+//          NSLog(@"TimerStart");
+//    if (![movetimer isValid]) {
+//        //[timer_ fire];
+//        movetimer = [NSTimer scheduledTimerWithTimeInterval:0.1
+//                                                  target:self
+//                                                selector:@selector(Moveyaji:)
+//                                                userInfo:nil
+//                                                 repeats:YES];
+//    }
+//    if (![plustimer isValid]) {
+//        //[timer_ fire];
+//        plustimer = [NSTimer scheduledTimerWithTimeInterval:0.1
+//                                                     target:self
+//                                                   selector:@selector(Plusyaji:)
+//                                                   userInfo:nil
+//                                                    repeats:YES];
+//    }
+//}
+
+//        plustimer =
+//        [NSTimer
+//         scheduledTimerWithTimeInterval:60.0f
+//         target:self
+//         selector:@selector(Plusyaji:)
+//         userInfo:nil
+//         repeats:YES
+//         ];
+
+
+
+
+    //ResultViewController *resultViewController;
+    //resultViewController = [[ResultViewController alloc]
+    //                       initWithNibName:@"ResultViewController"
+    //                       bundle:nil];
+    //[self presentViewController:resultViewController animated:YES completion:^{NSLog(@"ModalToResult");}];
+   
+    //[self dismissViewControllerAnimated:YES completion:^{NSLog(@"CloseView");}];
+         //   [self dismissViewControllerAnimated:YES completion:nil];
